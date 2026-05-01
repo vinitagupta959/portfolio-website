@@ -2,7 +2,7 @@ const menuBtn = document.getElementById("menuBtn");
 const navbar = document.getElementById("navbar");
 const navLinks = document.querySelectorAll(".nav-item a");
 const wrapper = document.querySelector(".projects-wrapper");
-const projects = document.querySelectorAll(".project-item");
+const projects = wrapper.querySelectorAll(".project-item");
 const nextBtn = document.querySelector(".next-btn");
 const prevBtn = document.querySelector(".prev-btn");
 
